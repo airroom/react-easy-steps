@@ -1,2 +1,0 @@
-# react-easy-steps
-NHHHHHMM
