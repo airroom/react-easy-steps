@@ -1,2 +1,2 @@
 # react-easy-steps
-NHHHHHMM
+A basic react component for rendering modal steps.
