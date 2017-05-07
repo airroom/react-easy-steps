@@ -1,9 +1,9 @@
 {
   parser: 'babel-eslint',
   extends: [
+    'airbnb',
     'standard',
-    'standard-react',
-    'airbnb'
+    'standard-react'
   ],
   plugins: ['babel'],
   env: {
@@ -11,5 +11,15 @@
     node: true,
     es6: true,
     jest: true
+  },
+  rules: {
+    'import/no-extraneous-dependencies': 0,
+    'import/no-unresolved': 0,
+    'import/prefer-default-export': 0,
+    'arrow-parens': [2, 'as-needed'],
+    'comma-dangle': ['error', 'never'],
+    'global-require': 0,
+    'space-before-function-paren': 0,
+    'react/jsx-filename-extension': 0
   }
 }
