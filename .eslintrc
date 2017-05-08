@@ -20,6 +20,7 @@
     'comma-dangle': ['error', 'never'],
     'global-require': 0,
     'space-before-function-paren': 0,
-    'react/jsx-filename-extension': 0
+    'react/jsx-filename-extension': 0,
+    'jsx-a11y/img-has-alt': 'off'
   }
 }
